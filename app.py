@@ -5,8 +5,7 @@ import logging
 import sys
 
 app = Flask(__name__)
-# app.secret_key = 'QVwI5uhPuU'
-app.secret_key = 'AIzaSyBKFOVhps_PAJaA5mq9n440F_ILdj8BCMM'
+app.secret_key = ''
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 
